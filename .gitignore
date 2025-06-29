@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Environment files (global)
+.env*
+!.env.example
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# Misc
+*.swp

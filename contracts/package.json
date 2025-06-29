@@ -1,0 +1,26 @@
+{
+  "name": "one-consensus-contracts",
+  "version": "1.0.0",
+  "description": "Solidity smart contracts and compilation scripts for the one-consensus project",
+  "engines": {
+    "node": "20.19.3",
+    "npm": "10.8.2"
+  },
+  "scripts": {
+    "compile": "node ethereum/compile.js",
+    "deploy": "node ethereum/deploy.js",
+    "interact": "node ethereum/interact.js",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "fs-extra": "^11.3.0",
+    "mocha": "^11.7.1",
+    "solc": "^0.8.30",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.26.0"
+  }
+}

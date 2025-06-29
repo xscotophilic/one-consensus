@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# Build artifacts
+ethereum/artifacts/
+
+# Solidity artifacts
+**/*.abi
+**/*.bin
+
+# Logs
+npm-debug.log*
+*.log
+
+# deployments
+deployments
+
+# cache
+cache
