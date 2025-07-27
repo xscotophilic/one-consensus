@@ -38,3 +38,17 @@ One Consensus offers several benefits over traditional crowdfunding and decision
 1. Decentralization: All participants have equal visibility and control over the platform, and decisions are executed on a decentralized network.
 2. Transparency: All transactions and decisions are recorded on a blockchain, making it transparent and tamper-proof.
 3. Security: The platform is built on top of blockchain technology, which is known for its security and immutability.
+
+## Detailed Module Documentation
+
+This root `README.md` provides a high-level overview of the project architecture. For detailed instructions on setup, development, and building, please refer to the `README.md` files within each primary module directory:
+
+```
+├── frontend
+│   └── README.md
+├── smart-contract
+│   └── README.md
+└── README.md
+```
+
+Each module’s README contains module-specific guidance to help you get started quickly and contribute effectively.
