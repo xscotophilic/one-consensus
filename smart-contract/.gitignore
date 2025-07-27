@@ -2,7 +2,7 @@
 node_modules/
 
 # Build artifacts
-ethereum/artifacts/
+artifacts/
 
 # Solidity artifacts
 **/*.abi

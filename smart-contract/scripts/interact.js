@@ -1,7 +1,7 @@
 const { Web3 } = require("web3");
 const dotenv = require("dotenv");
-const compiledFactory = require("./artifacts/CampaignFactory.json");
-const compiledCampaign = require("./artifacts/Campaign.json");
+const compiledFactory = require("../artifacts/CampaignFactory.json");
+const compiledCampaign = require("../artifacts/Campaign.json");
 
 const factoryActions = ["create-campaign"];
 const campaignActions = [

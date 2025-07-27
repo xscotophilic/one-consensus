@@ -2,15 +2,16 @@ const path = require("path");
 const solc = require("solc");
 const fs = require("fs-extra");
 
-const artifactsPath = path.resolve(__dirname, "artifacts");
+const artifactsPath = path.resolve(__dirname, "..", "artifacts");
 fs.ensureDirSync(artifactsPath);
 
 const campaignFactoryPath = path.resolve(
   __dirname,
+  "..",
   "contracts",
   "CampaignFactory.sol"
 );
-const campaignPath = path.resolve(__dirname, "contracts", "Campaign.sol");
+const campaignPath = path.resolve(__dirname, "..", "contracts", "Campaign.sol");
 
 const campaignFactorySource = fs.readFileSync(campaignFactoryPath, "UTF-8");
 const campaignSource = fs.readFileSync(campaignPath, "UTF-8");

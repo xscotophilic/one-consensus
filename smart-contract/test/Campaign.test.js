@@ -5,8 +5,8 @@ const { Web3 } = require("web3");
 let provider;
 let web3;
 
-const compiledFactory = require("../ethereum/artifacts/CampaignFactory.json");
-const compiledCampaign = require("../ethereum/artifacts/Campaign.json");
+const compiledFactory = require("../artifacts/CampaignFactory.json");
+const compiledCampaign = require("../artifacts/Campaign.json");
 
 let accounts;
 let factory;

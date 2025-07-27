@@ -36,12 +36,12 @@ The project requires a `.env` file to store network-specific values.
     NEXT_PUBLIC_CHAIN_ID="17000"
     ```
     - **`NEXT_PUBLIC_FACTORY_ADDRESS`** – Address of the deployed `CampaignFactory` contract.
-    - **`NEXT_PUBLIC_RPC_URL`** – JSON-RPC endpoint for the same network where you deployed your contract (see the [contracts README](../contracts/README.md#step-2-configure-environment-variables) for endpoint options).
+    - **`NEXT_PUBLIC_RPC_URL`** – JSON-RPC endpoint for the same network where you deployed your contract (see the [smart-contract README](../smart-contract/README.md#step-2-configure-environment-variables) for endpoint options).
     - **`NEXT_PUBLIC_CHAIN_ID`** – Numeric chain ID that corresponds to the RPC URL (e.g., `17000` for Holesky, `11155111` for Sepolia).
 
 > **Security:** The `.env` file is excluded by `.gitignore` and should **never** be committed to version control.
 
-> All three variables **must** point to the same network that your smart-contracts were deployed to in the `contracts/` project.
+> All three variables **must** point to the same network that your smart-contracts were deployed to in the `smart-contract/` project.
 
 ### Step 3: Run the development server
 

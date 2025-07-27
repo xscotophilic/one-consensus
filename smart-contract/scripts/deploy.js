@@ -5,6 +5,7 @@ const path = require("path");
 const { Web3 } = require("web3");
 const compiledFactory = require(path.resolve(
   __dirname,
+  "..",
   "artifacts",
   "CampaignFactory.json"
 ));

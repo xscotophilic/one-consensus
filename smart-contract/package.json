@@ -7,9 +7,9 @@
     "npm": "10.8.2"
   },
   "scripts": {
-    "compile": "node ethereum/compile.js",
-    "deploy": "node ethereum/deploy.js",
-    "interact": "node ethereum/interact.js",
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js",
+    "interact": "node scripts/interact.js",
     "test": "mocha"
   },
   "license": "MIT",
